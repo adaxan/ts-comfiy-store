@@ -1,8 +1,6 @@
 import axios from "axios";
 import { useEffect, useState, ChangeEvent, FC } from "react";
 import { useNavigate } from "react-router-dom";
-
-// Interfeyslar
 interface Product {
   id: number;
   attributes: {
